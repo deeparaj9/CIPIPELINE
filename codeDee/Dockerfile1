@@ -1,0 +1,4 @@
+from ubuntu:trusty
+label maintainer deepa.l@oracle.com
+entrypoint ["/bin/ping","-c3"]
+cmd ["localhost"]

@@ -1,0 +1,8 @@
+from ubuntu
+label maintainer deepa.l@oracle.com
+#copy bootDee.sh /codeDee/bootDee.sh
+run apt-get -y update && apt-get -y install curl apache2
+#run chmod +x /codeDee/bootDee.sh
+#cmd sh /codeDee/bootDee.sh
+cmd apachectl -D FOREGROUND
+
