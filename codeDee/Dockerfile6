@@ -1,0 +1,4 @@
+from ubuntu
+add a.sh /a.sh
+run chmod +x /a.sh
+cmd sh /a.sh

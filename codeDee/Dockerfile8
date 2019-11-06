@@ -1,0 +1,8 @@
+from node
+label maintainer deepa.l@oracle.com
+add node.js /node-app/node.js
+add data.json /node-app/data.json
+RUN npm install -y express
+RUN npm install -y body-parser
+expose 9000
+cmd node /node-app/node.js
